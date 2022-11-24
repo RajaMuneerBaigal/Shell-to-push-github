@@ -8,7 +8,7 @@
 # https://github.com/KENJU/git_shellscript 
 
 # get user name
-username=`git config github.user`
+username="RajaMuneerBaigal"
 if [ "$username" = "" ]; then
     echo "Could not find username, run 'git config --global github.user <username>'"
     invalid_credentials=1
